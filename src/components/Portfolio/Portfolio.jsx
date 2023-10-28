@@ -4,6 +4,9 @@ import { themeContext } from "../../Context";
 
 import "./Portfolio.css";
 import "swiper/css";
+
+import Sparqo from "../../img/Sparqo.png";
+import Carzen from "../../img/Carzen.png";
 import FoodOrderApp from "../../img/FoodOrderApp.png";
 import NextjsMeetups from "../../img/NextjsMeetups.png";
 import JSDocumentation from "../../img/JSDocumentation.png";
@@ -25,6 +28,16 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <a href="https://sparqo.vercel.app/" target="_blank" rel="noreferrer">
+            <img src={Sparqo} alt="Sparqo" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://carzen.vercel.app/" target="_blank" rel="noreferrer">
+            <img src={Carzen} alt="Carzen" />
+          </a>
+        </SwiperSlide>
         <SwiperSlide>
           <a
             href="https://quotes-react-router-bd7b8.web.app/quotes?sort=decs"
@@ -48,7 +61,7 @@ const Portfolio = () => {
             href="https://nextjs-meetup-wep.vercel.app/"
             target="_blank"
             rel="noreferrer"
-            >
+          >
             <img src={NextjsMeetups} alt="NextJs Meetup Project" />
           </a>
         </SwiperSlide>
