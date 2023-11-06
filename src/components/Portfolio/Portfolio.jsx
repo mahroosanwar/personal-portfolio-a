@@ -29,7 +29,7 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://sparqo.vercel.app/" target="_blank" rel="noreferrer">
+          <a href="https://docs.google.com/document/d/12CIaq0KuPaVUQBxFnsPSv02jZVh3fydHdVTC5yfML3Q/edit" target="_blank" rel="noreferrer">
             <img src={Sparqo} alt="Sparqo" />
           </a>
         </SwiperSlide>
